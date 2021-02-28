@@ -8,8 +8,20 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'heeju0', // Usually your GitHub org/user name.
   projectName: 'willbe', // Usually your repo name.
-  // themes: ['@docusaurus/theme-live-codeblock'],
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/willbe'),
+      darkTheme: require('prism-react-renderer/themes/vsDark'),
+      // willbe, dracula, duotoneDark, duotoneLight, github, nightOwl, nightOwlLight,
+      // oceanicNext, palenight, shadesOfPurple, synthwave84, ultramin, vsDark
+    },
+    // algolia: {
+    //     apiKey: 'c14d6c428639383a396d5c30f3e2e37e',
+    //     indexName: 'docusaurus-2',
+    //     contextualSearch: true,
+    // },
+      // c14d6c428639383a396d5c30f3e2e37e
     navbar: {
       hideOnScroll: true,
       title: 'WILL BE',
@@ -40,7 +52,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/heeju0/docusaurus',
+          href: 'https://github.com/heeju0/willbe',
           label: 'GitHub',
           position: 'right',
           className: 'header-github-link',
@@ -78,7 +90,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/heeju0/willbe/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
