@@ -37,8 +37,18 @@ module.exports = {
   codingpractice: [
     {
       type: 'category',
-      label: 'Baekjoon Algorithm',
-      items: ['coding-practice/greedy']
+      label: 'Baekjoon',
+      items: [
+        'coding-practice/greedy'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Programmers',
+      items: [
+        'coding-practice/sort_programmers',
+        'coding-practice/exhaustive_search_programmers',
+      ]
     },
   ]
 }
