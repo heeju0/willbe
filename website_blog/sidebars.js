@@ -41,7 +41,8 @@ module.exports = {
       type: 'category',
       label: 'Baekjoon',
       items: [
-        'coding-practice/greedy'
+        'coding-practice/greedy',
+        'coding-practice/binary_search'
       ]
     },
     {
