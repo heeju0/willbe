@@ -28,6 +28,7 @@ module.exports = {
         'data-science/pandas5',
         'data-science/pandas6',
         'data-science/pandas7',
+        'data-science/pandas8',
       ]
     },
     {
