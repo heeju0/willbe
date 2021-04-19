@@ -15,7 +15,10 @@ module.exports = {
     {
       type: 'category',
       label: 'Data Science',
-      items: ['data-science/how-to']
+      items: [
+        'data-science/how-to',
+        'data-science/info',
+      ]
     },
     {
       type: 'category',
@@ -31,10 +34,16 @@ module.exports = {
         'data-science/pandas8',
       ]
     },
+  ],
+  kdt: [
     {
       type: 'category',
-      label: 'Machine Learning',
-      items: ['data-science/info']
+      label: '파이썬 프로그래밍 기초',
+      items: [
+        'kdt/definition',
+        'kdt/data_strunctures',
+        'kdt/exercise',
+      ]
     },
   ],
   codingpractice: [
@@ -43,7 +52,9 @@ module.exports = {
       label: 'Baekjoon',
       items: [
         'coding-practice/greedy',
-        'coding-practice/binary_search'
+        'coding-practice/binary_search',
+        'coding-practice/bfs',
+        'coding-practice/dfs',
       ]
     },
     {

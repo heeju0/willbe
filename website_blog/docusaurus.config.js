@@ -46,6 +46,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          label: 'KDT AI/ML',
+          position: 'left',
+          docId: 'kdt/definition'
+        },
+        {
+          type: 'doc',
           label: 'Coding',
           position: 'left',
           docId: 'coding-practice/greedy'
