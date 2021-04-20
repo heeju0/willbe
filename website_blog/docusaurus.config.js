@@ -1,3 +1,6 @@
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 module.exports = {
   title: 'WELCOME',
   tagline: 'This is where I study',
@@ -9,6 +12,16 @@ module.exports = {
   organizationName: 'heeju0', // Usually your GitHub org/user name.
   projectName: 'willbe', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
+  stylesheets: [
+    {
+      // href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+      crossorigin: 'anonymous',
+    },
+  ],
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/willbe'),
@@ -87,16 +100,18 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/heeju0/willbe/edit/master/website_blog/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/heeju0/willbe/edit/master/website/blog/',
+          // editUrl:
+          //   'https://github.com/heeju0/willbe/edit/master/website_blog/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -41,7 +41,8 @@ module.exports = {
       label: '파이썬 프로그래밍 기초',
       items: [
         'kdt/definition',
-        'kdt/data_strunctures',
+        'kdt/data_strunctures1',
+        'kdt/data_strunctures2',
         'kdt/exercise',
       ]
     },
