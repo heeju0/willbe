@@ -4,9 +4,16 @@
         <title>WELCOME Blog</title>
         <link>https://heeju0.github.io/blog</link>
         <description>WELCOME Blog</description>
-        <lastBuildDate>Sun, 10 Jan 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[TIL Day1]]></title>
+            <link>https://heeju0.github.io/willbe/blog/til1</link>
+            <guid>til1</guid>
+            <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[itertools 라이브러리를 이용하여 순열과 조합을 쉽게 계산할 수 있다.]]></description>
+        </item>
         <item>
             <title><![CDATA[Hello]]></title>
             <link>https://heeju0.github.io/willbe/blog/hello</link>
