@@ -61,7 +61,7 @@ module.exports = {
           type: 'doc',
           label: 'KDT AI/ML',
           position: 'left',
-          docId: 'kdt/definition'
+          docId: 'kdt/data_structures/definition'
         },
         {
           type: 'doc',
