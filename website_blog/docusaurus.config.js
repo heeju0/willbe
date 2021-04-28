@@ -1,5 +1,7 @@
 const math = require('remark-math');
 const katex = require('rehype-katex');
+// const remarkImages = require('remark-images');
+// const rehypeTruncate = require('rehype-truncate');
 
 module.exports = {
   title: 'WELCOME',
@@ -13,14 +15,15 @@ module.exports = {
   projectName: 'willbe', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
   stylesheets: [
-    {
-      // href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
-      href: '/katex/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
-      crossorigin: 'anonymous',
-    },
+    'https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css',
+    // {
+    //   // href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+    //   href: '/katex/katex.min.css',
+    //   type: 'text/css',
+    //   integrity:
+    //     'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+    //   crossorigin: 'anonymous',
+    // },
   ],
   themeConfig: {
     prism: {
@@ -100,12 +103,12 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/heeju0/willbe/edit/master/website_blog/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,

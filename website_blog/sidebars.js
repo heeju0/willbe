@@ -60,6 +60,7 @@ module.exports = {
       items: [
         'kdt/math/math1',
         'kdt/math/math2',
+        'kdt/math/math3',
       ]
     },
   ],
