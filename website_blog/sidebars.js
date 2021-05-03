@@ -60,7 +60,20 @@ module.exports = {
       items: [
         'kdt/math/math1',
         'kdt/math/math2',
-        'kdt/math/math3',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Git',
+      items: [
+        'kdt/python/git',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Python으로 데이터 다루기',
+      items: [
+        'kdt/python/python1',
       ]
     },
   ],
@@ -81,6 +94,8 @@ module.exports = {
       items: [
         'coding-practice/sort_programmers',
         'coding-practice/exhaustive_search_programmers',
+        'coding-practice/heap_programmers',
+        'coding-practice/dp_programmers',
       ]
     },
   ]
