@@ -74,6 +74,9 @@ module.exports = {
       label: 'Python으로 데이터 다루기',
       items: [
         'kdt/python/python1',
+        'kdt/python/python2',
+        'kdt/python/python3',
+        'kdt/python/python4',
       ]
     },
   ],
