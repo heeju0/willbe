@@ -77,6 +77,7 @@ module.exports = {
         'kdt/python/python2',
         'kdt/python/python3',
         'kdt/python/python4',
+        'kdt/python/python5',
       ]
     },
   ],
@@ -99,6 +100,8 @@ module.exports = {
         'coding-practice/exhaustive_search_programmers',
         'coding-practice/heap_programmers',
         'coding-practice/dp_programmers',
+        'coding-practice/kakao_programmers',
+        'coding-practice/dfs_bfs_programmers',
       ]
     },
   ]
