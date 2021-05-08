@@ -2,34 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heeju0.github.io/blog</id>
     <title>WELCOME Blog</title>
-    <updated>2021-04-25T00:00:00.000Z</updated>
+    <updated>2021-05-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heeju0.github.io/blog"/>
     <subtitle>WELCOME Blog</subtitle>
     <icon>https://heeju0.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[TIL4 - Day4]]></title>
+        <title type="html"><![CDATA[TIL - 2021.05.06]]></title>
+        <id>til5</id>
+        <link href="https://heeju0.github.io/willbe/blog/til5"/>
+        <updated>2021-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[데이터프레임을 출력했을 때 더 많은 행과 열을 보기 위해 옵션을 변경할 수 있다.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL - 2021.04.25]]></title>
         <id>til4</id>
         <link href="https://heeju0.github.io/willbe/blog/til4"/>
         <updated>2021-04-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[일반적으로 else 구문은 if와 함께 사용하지만, 파이썬에서는 for문과 함께 사용할 수 있다.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TIL2 - Day3]]></title>
+        <title type="html"><![CDATA[TIL - 2021.04.24]]></title>
         <id>til2</id>
         <link href="https://heeju0.github.io/willbe/blog/til2"/>
         <updated>2021-04-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[`Dictionary객체.get(key값, 기본값)`: 딕셔너리 타입의 데이터에서 key로 value 값을 얻고, 해당 key가 없을 경우 설정한 기본값을 리턴한다.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TIL3 - Day3]]></title>
+        <title type="html"><![CDATA[TIL - 2021.04.24(2)]]></title>
         <id>til3</id>
         <link href="https://heeju0.github.io/willbe/blog/til3"/>
         <updated>2021-04-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[파이썬에서 set 타입을 이용하면 두 집합 사이의 교집합, 합집합, 차집합을 구할 수 있다.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TIL1 - Day1]]></title>
+        <title type="html"><![CDATA[TIL - 2021.04.23]]></title>
         <id>til1</id>
         <link href="https://heeju0.github.io/willbe/blog/til1"/>
         <updated>2021-04-23T00:00:00.000Z</updated>

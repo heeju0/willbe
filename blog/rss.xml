@@ -4,32 +4,39 @@
         <title>WELCOME Blog</title>
         <link>https://heeju0.github.io/blog</link>
         <description>WELCOME Blog</description>
-        <lastBuildDate>Sun, 25 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[TIL4 - Day4]]></title>
+            <title><![CDATA[TIL - 2021.05.06]]></title>
+            <link>https://heeju0.github.io/willbe/blog/til5</link>
+            <guid>til5</guid>
+            <pubDate>Thu, 06 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[데이터프레임을 출력했을 때 더 많은 행과 열을 보기 위해 옵션을 변경할 수 있다.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TIL - 2021.04.25]]></title>
             <link>https://heeju0.github.io/willbe/blog/til4</link>
             <guid>til4</guid>
             <pubDate>Sun, 25 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[일반적으로 else 구문은 if와 함께 사용하지만, 파이썬에서는 for문과 함께 사용할 수 있다.]]></description>
         </item>
         <item>
-            <title><![CDATA[TIL2 - Day3]]></title>
+            <title><![CDATA[TIL - 2021.04.24]]></title>
             <link>https://heeju0.github.io/willbe/blog/til2</link>
             <guid>til2</guid>
             <pubDate>Sat, 24 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[`Dictionary객체.get(key값, 기본값)`: 딕셔너리 타입의 데이터에서 key로 value 값을 얻고, 해당 key가 없을 경우 설정한 기본값을 리턴한다.]]></description>
         </item>
         <item>
-            <title><![CDATA[TIL3 - Day3]]></title>
+            <title><![CDATA[TIL - 2021.04.24(2)]]></title>
             <link>https://heeju0.github.io/willbe/blog/til3</link>
             <guid>til3</guid>
             <pubDate>Sat, 24 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[파이썬에서 set 타입을 이용하면 두 집합 사이의 교집합, 합집합, 차집합을 구할 수 있다.]]></description>
         </item>
         <item>
-            <title><![CDATA[TIL1 - Day1]]></title>
+            <title><![CDATA[TIL - 2021.04.23]]></title>
             <link>https://heeju0.github.io/willbe/blog/til1</link>
             <guid>til1</guid>
             <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
