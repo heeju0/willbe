@@ -71,13 +71,21 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Python으로 데이터 다루기',
+      label: '파이썬으로 데이터 다루기',
       items: [
         'kdt/python/python1',
         'kdt/python/python2',
         'kdt/python/python3',
         'kdt/python/python4',
         'kdt/python/python5',
+      ]
+    },
+    {
+      type: 'category',
+      label: '파이썬으로 웹 다루기',
+      items: [
+        'kdt/web/flask1',
+        'kdt/web/aws1',
       ]
     },
   ],
