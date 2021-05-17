@@ -86,6 +86,7 @@ module.exports = {
       items: [
         'kdt/web/flask1',
         'kdt/web/aws1',
+        'kdt/web/django1',
       ]
     },
   ],
