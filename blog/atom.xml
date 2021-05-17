@@ -22,18 +22,18 @@
         <summary type="html"><![CDATA[일반적으로 else 구문은 if와 함께 사용하지만, 파이썬에서는 for문과 함께 사용할 수 있다.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TIL - 2021.04.24]]></title>
-        <id>til2</id>
-        <link href="https://heeju0.github.io/willbe/blog/til2"/>
-        <updated>2021-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[`Dictionary객체.get(key값, 기본값)`: 딕셔너리 타입의 데이터에서 key로 value 값을 얻고, 해당 key가 없을 경우 설정한 기본값을 리턴한다.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[TIL - 2021.04.24(2)]]></title>
         <id>til3</id>
         <link href="https://heeju0.github.io/willbe/blog/til3"/>
         <updated>2021-04-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[파이썬에서 set 타입을 이용하면 두 집합 사이의 교집합, 합집합, 차집합을 구할 수 있다.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL - 2021.04.24]]></title>
+        <id>til2</id>
+        <link href="https://heeju0.github.io/willbe/blog/til2"/>
+        <updated>2021-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[`Dictionary객체.get(key값, 기본값)`: 딕셔너리 타입의 데이터에서 key로 value 값을 얻고, 해당 key가 없을 경우 설정한 기본값을 리턴한다.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[TIL - 2021.04.23]]></title>
