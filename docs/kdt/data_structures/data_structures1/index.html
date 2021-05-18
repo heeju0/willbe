@@ -8,15 +8,15 @@
 <link rel="alternate" type="application/atom+xml" href="/willbe/blog/atom.xml" title="WELCOME Blog Atom Feed">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css"><title data-react-helmet="true">자료구조 기초 | WELCOME</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="자료구조 기초 | WELCOME"><meta data-react-helmet="true" name="description" content="💡 『KDT 프로그래머스 인공지능 데브코스』에서 공부중..👀"><meta data-react-helmet="true" property="og:description" content="💡 『KDT 프로그래머스 인공지능 데브코스』에서 공부중..👀"><meta data-react-helmet="true" property="og:url" content="https://heeju0.github.io/willbe/docs/kdt/data_structures/data_structures1"><link data-react-helmet="true" rel="shortcut icon" href="/willbe/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://heeju0.github.io/willbe/docs/kdt/data_structures/data_structures1"><link rel="stylesheet" href="/willbe/styles.28bf0270.css">
 <link rel="preload" href="/willbe/styles.ddae2199.js" as="script">
-<link rel="preload" href="/willbe/runtime~main.e73084de.js" as="script">
-<link rel="preload" href="/willbe/main.40638798.js" as="script">
+<link rel="preload" href="/willbe/runtime~main.7e48ef72.js" as="script">
+<link rel="preload" href="/willbe/main.72ba80bb.js" as="script">
 <link rel="preload" href="/willbe/1.f86485d3.js" as="script">
-<link rel="preload" href="/willbe/2.b597b6fa.js" as="script">
+<link rel="preload" href="/willbe/2.1615f6c8.js" as="script">
 <link rel="preload" href="/willbe/1be78505.82dcd949.js" as="script">
 <link rel="preload" href="/willbe/93.048214cf.js" as="script">
 <link rel="preload" href="/willbe/f976f453.277548aa.js" as="script">
 <link rel="preload" href="/willbe/92.7fb12391.js" as="script">
-<link rel="preload" href="/willbe/805ba7f2.0d7dfbdf.js" as="script">
+<link rel="preload" href="/willbe/805ba7f2.b76d1915.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -59,14 +59,14 @@ O(n): 입력의 크기에 비례하는 시간이 소요된다.  </p><table><thea
 ex) 병합 정렬 (Merge Sort): O(n log n)<br>
 참고: 입력 패턴에 따라 정렬 속도에 차이가 있지만, 정렬 문제에 있어 O(n log n)보다 낮은 복잡도를 갖는 알고리즘은 존재할 수 없음이 증명되어 있다.  </p></blockquote></div></article><div class="margin-vert--lg"><nav class="pagination-nav" aria-label="Blog list page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/willbe/docs/kdt/data_structures/definition"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« 자료구조와 알고리즘 정의</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/willbe/docs/kdt/data_structures/data_structures2"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">연결 리스트 »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_2xL- thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-선형-배열-linear-arrays" class="table-of-contents__link">1. 선형 배열 (Linear Arrays)</a><ul><li><a href="#1-1-배열-array" class="table-of-contents__link">1-1. 배열 (Array)</a></li><li><a href="#리스트-배열-연산" class="table-of-contents__link">리스트 (배열) 연산</a></li><li><a href="#연습문제" class="table-of-contents__link">연습문제</a></li></ul></li><li><a href="#2-정렬과-탐색" class="table-of-contents__link">2. 정렬과 탐색</a><ul><li><a href="#2-1-정렬-sort" class="table-of-contents__link">2-1. 정렬 (Sort)</a></li><li><a href="#python-리스트의-정렬" class="table-of-contents__link">Python 리스트의 정렬</a></li><li><a href="#예제" class="table-of-contents__link">예제</a></li><li><a href="#2-2-탐색-search" class="table-of-contents__link">2-2. 탐색 (Search)</a></li><li><a href="#탐색-알고리즘" class="table-of-contents__link">탐색 알고리즘</a></li></ul></li><li><a href="#3-재귀-알고리즘-recursive-algorithms" class="table-of-contents__link">3. 재귀 알고리즘 (Recursive Algorithms)</a><ul><li><a href="#3-1-재귀-함수-recursive-functions" class="table-of-contents__link">3-1. 재귀 함수 (Recursive Functions)</a></li><li><a href="#예제-1" class="table-of-contents__link">예제</a></li><li><a href="#재귀-함수의-효율" class="table-of-contents__link">재귀 함수의 효율</a></li><li><a href="#연습문제-1" class="table-of-contents__link">연습문제</a></li><li><a href="#3-2-재귀-알고리즘-응용" class="table-of-contents__link">3-2. 재귀 알고리즘 응용</a></li><li><a href="#예제-2" class="table-of-contents__link">예제</a></li><li><a href="#재귀-알고리즘의-효율" class="table-of-contents__link">재귀 알고리즘의 효율</a></li><li><a href="#연습문제-2" class="table-of-contents__link">연습문제</a></li></ul></li><li><a href="#4-정렬-알고리즘-sort-algorithm" class="table-of-contents__link">4. 정렬 알고리즘 (Sort Algorithm)</a><ul><li><a href="#4-1-삽입-정렬-insertion-sort" class="table-of-contents__link">4-1. 삽입 정렬 (Insertion Sort)</a></li><li><a href="#4-2-병합-정렬-merge-sort" class="table-of-contents__link">4-2. 병합 정렬 (Merge Sort)</a></li></ul></li><li><a href="#5-알고리즘의-복잡도-complexity-of-algorithms" class="table-of-contents__link">5. 알고리즘의 복잡도 (Complexity of Algorithms)</a><ul><li><a href="#5-1-시간-복잡도" class="table-of-contents__link">5-1. 시간 복잡도</a></li><li><a href="#5-2-big-o-notation" class="table-of-contents__link">5-2. Big-O Notation</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2021 HEEJU LEE</div></div></div></footer></div>
 <script src="/willbe/styles.ddae2199.js"></script>
-<script src="/willbe/runtime~main.e73084de.js"></script>
-<script src="/willbe/main.40638798.js"></script>
+<script src="/willbe/runtime~main.7e48ef72.js"></script>
+<script src="/willbe/main.72ba80bb.js"></script>
 <script src="/willbe/1.f86485d3.js"></script>
-<script src="/willbe/2.b597b6fa.js"></script>
+<script src="/willbe/2.1615f6c8.js"></script>
 <script src="/willbe/1be78505.82dcd949.js"></script>
 <script src="/willbe/93.048214cf.js"></script>
 <script src="/willbe/f976f453.277548aa.js"></script>
 <script src="/willbe/92.7fb12391.js"></script>
-<script src="/willbe/805ba7f2.0d7dfbdf.js"></script>
+<script src="/willbe/805ba7f2.b76d1915.js"></script>
 </body>
 </html>
