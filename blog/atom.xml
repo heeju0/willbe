@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heeju0.github.io/blog</id>
     <title>WELCOME Blog</title>
-    <updated>2021-05-06T00:00:00.000Z</updated>
+    <updated>2021-05-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heeju0.github.io/blog"/>
     <subtitle>WELCOME Blog</subtitle>
     <icon>https://heeju0.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[TIL - 2021.05.20]]></title>
+        <id>til7</id>
+        <link href="https://heeju0.github.io/willbe/blog/til7"/>
+        <updated>2021-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[|safe: tag escape 방지]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL - 2021.05.19]]></title>
+        <id>til6</id>
+        <link href="https://heeju0.github.io/willbe/blog/til6"/>
+        <updated>2021-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[plotly로 그래프 작업을 하면 노트북 속도가 급격히 느려짐을 느꼈다. 게다가 수백만 개의 row로 이루어진 데이터로 시각화 작업을 하다보니 이제는 파일을 열기만 하면 창이 먹통이 된다...]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TIL - 2021.05.06]]></title>
         <id>til5</id>
@@ -22,18 +36,18 @@
         <summary type="html"><![CDATA[일반적으로 else 구문은 if와 함께 사용하지만, 파이썬에서는 for문과 함께 사용할 수 있다.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TIL - 2021.04.24(2)]]></title>
-        <id>til3</id>
-        <link href="https://heeju0.github.io/willbe/blog/til3"/>
-        <updated>2021-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[파이썬에서 set 타입을 이용하면 두 집합 사이의 교집합, 합집합, 차집합을 구할 수 있다.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[TIL - 2021.04.24]]></title>
         <id>til2</id>
         <link href="https://heeju0.github.io/willbe/blog/til2"/>
         <updated>2021-04-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[`Dictionary객체.get(key값, 기본값)`: 딕셔너리 타입의 데이터에서 key로 value 값을 얻고, 해당 key가 없을 경우 설정한 기본값을 리턴한다.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TIL - 2021.04.24(2)]]></title>
+        <id>til3</id>
+        <link href="https://heeju0.github.io/willbe/blog/til3"/>
+        <updated>2021-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[파이썬에서 set 타입을 이용하면 두 집합 사이의 교집합, 합집합, 차집합을 구할 수 있다.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[TIL - 2021.04.23]]></title>
