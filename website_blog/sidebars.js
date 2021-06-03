@@ -89,6 +89,14 @@ module.exports = {
         'kdt/web/django1',
       ]
     },
+    {
+      type: 'category',
+      label: '머신러닝',
+      items: [
+        'kdt/ml/ml1',
+        'kdt/ml/ml2',
+      ]
+    },
   ],
   codingpractice: [
     {
