@@ -95,6 +95,9 @@ module.exports = {
       items: [
         'kdt/ml/ml1',
         'kdt/ml/ml2',
+        'kdt/ml/ml3',
+        'kdt/ml/ml4',
+        'kdt/ml/ml5',
       ]
     },
   ],
