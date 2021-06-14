@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{110:function(e){e.exports=JSON.parse('{"allTagsPath":"/willbe/blog/tags","slug":"template-\ud544\ud130","name":"template \ud544\ud130","count":1,"permalink":"/willbe/blog/tags/template-\ud544\ud130"}')}}]);

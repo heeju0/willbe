@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heeju0.github.io/blog</id>
     <title>WELCOME Blog</title>
-    <updated>2021-05-20T00:00:00.000Z</updated>
+    <updated>2021-06-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heeju0.github.io/blog"/>
     <subtitle>WELCOME Blog</subtitle>
     <icon>https://heeju0.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[TIL - 2021.06.14]]></title>
+        <id>til8</id>
+        <link href="https://heeju0.github.io/willbe/blog/til8"/>
+        <updated>2021-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ML 이론 수업을 들으면서 ML에 대한 이론적인 공부와 이해가 많이 부족하다는 점을 정말 뼈저리게 깨달았다. kaggle shadowing과 빅데이터 분석기사 시험 준비 등을 하면서 키워온 지식과 역량이 정말 얕았다는 점을 느꼈고, 때문에 이론 수업은 이해를 못해 정리하지 못한 부분들이 많다. 추천받은 단단한 머신러닝 책으로 혼자 공부하면서 이론 강의 부분을 다시 들을 생각이다.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TIL - 2021.05.20]]></title>
         <id>til7</id>

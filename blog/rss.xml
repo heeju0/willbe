@@ -4,9 +4,16 @@
         <title>WELCOME Blog</title>
         <link>https://heeju0.github.io/blog</link>
         <description>WELCOME Blog</description>
-        <lastBuildDate>Thu, 20 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[TIL - 2021.06.14]]></title>
+            <link>https://heeju0.github.io/willbe/blog/til8</link>
+            <guid>til8</guid>
+            <pubDate>Mon, 14 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[ML 이론 수업을 들으면서 ML에 대한 이론적인 공부와 이해가 많이 부족하다는 점을 정말 뼈저리게 깨달았다. kaggle shadowing과 빅데이터 분석기사 시험 준비 등을 하면서 키워온 지식과 역량이 정말 얕았다는 점을 느꼈고, 때문에 이론 수업은 이해를 못해 정리하지 못한 부분들이 많다. 추천받은 단단한 머신러닝 책으로 혼자 공부하면서 이론 강의 부분을 다시 들을 생각이다.]]></description>
+        </item>
         <item>
             <title><![CDATA[TIL - 2021.05.20]]></title>
             <link>https://heeju0.github.io/willbe/blog/til7</link>
