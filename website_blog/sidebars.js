@@ -98,6 +98,8 @@ module.exports = {
         'kdt/ml/ml3',
         'kdt/ml/ml4',
         'kdt/ml/ml5',
+        'kdt/ml/ml6',
+        'kdt/ml/ml7',
       ]
     },
   ],
