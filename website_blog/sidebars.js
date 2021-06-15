@@ -102,6 +102,13 @@ module.exports = {
         'kdt/ml/ml7',
       ]
     },
+    {
+      type: 'category',
+      label: '딥러닝',
+      items: [
+        'kdt/dl/dl1',
+      ]
+    },
   ],
   codingpractice: [
     {
